@@ -23,12 +23,4 @@ class HomeParser {
     );
     return response;
   }
-
-  String getFarmerName() {
-    return sharedPreferencesManager.getString('name') ?? '';
-  }
-
-  String getfarmerCode() {
-    return sharedPreferencesManager.getString('code') ?? '';
-  }
 }
